@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void dump_FILE(FILE *dest) {
-    printf("let's get FILE struct members of %s\n------------ struct _IO_FILE ----------------\n", argv[1]);
+    printf("------------ struct _IO_FILE ----------------\n");
 
     printf("int _flags = %d\n", dest->_flags);
     printf("char* _IO_read_ptr                  = %p\n", dest->_IO_read_ptr);
